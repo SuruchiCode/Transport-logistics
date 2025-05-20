@@ -3,7 +3,7 @@ import React from 'react';
 const LogisticsProfile = () => {
   // Mock data - in a real application, this would come from props or a data fetch
   const driverInfo = {
-    name: "Bennett University, Greater Noida 201301",
+    name: "Rahul, Greater Noida 201301",
     rating: 4.5,
     contactNo: "999XXXXXXX"
   };

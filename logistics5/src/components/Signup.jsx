@@ -66,7 +66,7 @@ const Signup = ({ setUserType }) => {
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-100 to-indigo-200">
       <div className="w-full max-w-md">
         <form onSubmit={handleSignup} className="bg-white shadow-2xl rounded-lg px-8 pt-6 pb-8 mb-4">
-          <h2 className="mb-6 text-3xl font-extrabold text-center text-gray-800">Join Our Network</h2>
+          <h2 className="mb-6 text-3xl font-extrabold text-center text-gray-800">Connect to Our Transport Grid</h2>
           <div className="flex flex-wrap -mx-2 mb-6">
             {userTypes.map((type) => (
               <div key={type.value} className="w-1/3 px-2">
